@@ -9,7 +9,7 @@
     git add .
     git commit -m "Initial commit"
     git branch -M main
-    git remote add origin https://github.com/tu_usuario/karate_chop.git
+    git remote add origin https://josethephish04/tu_usuario/karate_chop.git
     git push -u origin main
     ```
 
