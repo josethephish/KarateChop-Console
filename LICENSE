@@ -1,21 +1,29 @@
-MIT License
 
-Copyright (c) 2024 josethephish
+### Publicación en GitHub
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. **Crea un nuevo repositorio en GitHub**.
+2. **Sube los archivos del proyecto**:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    ```sh
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin https://github.com/tu_usuario/karate_chop.git
+    git push -u origin main
+    ```
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. **Agrega un archivo `.gitignore`** para evitar subir archivos innecesarios (como los del entorno virtual):
+
+    ```plaintext
+    venv/
+    __pycache__/
+    *.pyc
+    *.pyo
+    *.pyd
+    .env
+    .DS_Store
+    .vscode/
+    ```
+
+Con estos pasos, tendrás una implementación de la Kata 02 - Karate Chop en una aplicación de consola, lista para ser ejecutada y probada, junto con un README que explica cómo usar y contribuir al proyecto.
