@@ -9,14 +9,14 @@ Esta es una implementación de la Kata 02 - Karate Chop, que consiste en una bú
 
 ## Requisitos
 
-- Python 3.x
+- Python 3.9
 
 ## Instalación
 
 1. Clonar el repositorio:
 
     ```sh
-    git clone https://github.com/tu_usuario/karate_chop.git
+    git clone https://github.com/josethephish04/karate_chop.git
     cd karate_chop
     ```
 
